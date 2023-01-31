@@ -1,8 +1,0 @@
-POST https://register-login-node-loxm.vercel.app/register
-Content-Type: application/json
-
-{
-    "name": "Ram",
-    "email": "rrram@gmail.com",
-    "password": "1223456yuthfbfsgwe"
-}
