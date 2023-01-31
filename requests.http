@@ -1,4 +1,4 @@
-POST https://register-login-node.vercel.app/register
+POST https://register-login-node-loxm.vercel.app/register
 Content-Type: application/json
 
 {
