@@ -1,4 +1,4 @@
-POST http://localhost:5000/register
+POST https://register-login-node.vercel.app/register
 Content-Type: application/json
 
 {
