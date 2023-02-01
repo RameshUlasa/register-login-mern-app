@@ -15,6 +15,8 @@ const JWT_SECRET = "asfbhetnbenbifnbafvasdvefeq4358ytejhw5gnvryvn arv nqyurgt";
 const dbUrl =
   "mongodb+srv://ramesh:ramdatabase@cluster0.curv2jq.mongodb.net/?retryWrites=true&w=majority";
 
+mongoose.set("strictQuery", true);
+
 mongoose
   .connect(dbUrl, {
     useNewUrlParser: true,
