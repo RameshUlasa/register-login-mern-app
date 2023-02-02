@@ -28,9 +28,9 @@ mongoose
 
 const User = mongoose.model("UserDetails");
 
-app.use("/", (req, res) => {
-  res.send("welcome to the server home page");
-});
+// app.use("/", (req, res) => {
+//   res.send("welcome to the server home page");
+// });
 
 // Register API
 app.post("/register", async (request, response) => {
